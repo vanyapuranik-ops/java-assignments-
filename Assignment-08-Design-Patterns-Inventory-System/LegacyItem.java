@@ -1,0 +1,16 @@
+public class LegacyItem 
+{
+    int itemId;
+    String description;
+
+    public LegacyItem(int itemId, String description) 
+    {
+        this.itemId = itemId;
+        this.description = description;
+    }
+
+    public void print() 
+    {
+        System.out.println("Legacy Item -> ID: " + itemId + ", Description: " + description);
+    }
+}
